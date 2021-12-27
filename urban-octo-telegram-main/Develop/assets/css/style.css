@@ -1,3 +1,4 @@
+/* GENERAL STYLES*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,17 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* GENERAL STYLES END*/
+
+/* BEGINNING OF HEADER STYLES*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +52,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* END OF HEADER STYLES*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* ALL HERO STYLES*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +63,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* END OF HERO STYLES*/
 
+/* BEGINNING OF CONTENT STYLES*/
 .content {
     width: 75%;
     display: inline-block;
@@ -92,7 +99,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* END OF CONTENT STYLES*/
 
+/* BEGINNING OF BENEFITS STYLES*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,7 +125,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* END OF BENEFITS STYLES*/
 
+/* BEGINNING OF FOOTER STYLES*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,3 +138,4 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+/* END OF FOOTER STYLES*/
